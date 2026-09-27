@@ -1,0 +1,6 @@
+{
+  "name": "AI Hisaab Ji",
+  "description": "Voice-controlled digital khata accounting app for shopkeepers with camera OCR and smart analytics",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main Ledger / Khata Book Base -->
+    <path
+        android:pathData="M32,28 L72,28 C75.3,28 78,30.7 78,34 L78,74 C78,77.3 75.3,80 72,80 L32,80 C30.3,80 29,78.7 29,77 L29,31 C29,29.3 30.3,28 32,28 Z"
+        android:fillColor="#152033" />
+    <!-- Book Spine Accent -->
+    <path
+        android:pathData="M29,31 C29,29.3 30.3,28 32,28 L37,28 L37,80 L32,80 C30.3,80 29,78.7 29,77 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="29"
+                android:startY="28"
+                android:endX="37"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F59E0B" />
+                <item android:offset="1.0" android:color="#D97706" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Golden Rupee symbol on the book cover -->
+    <path
+        android:pathData="M48,39 L64,39 M48,44 L62,44 M48,39 L48,51 C52,51 56,50 56,46.5 C56,43 52,42 48,42 M53,49 L62,61"
+        android:strokeColor="#FFC107"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M48,39 L48,61"
+        android:strokeColor="#FFC107"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round" />
+    <!-- Ledger Bookmark Ribbon -->
+    <path
+        android:pathData="M66,28 L66,38 L69,35 L72,38 L72,28 Z"
+        android:fillColor="#EF4444" />
+    <!-- Voice / Mic badge circle (Green/Emerald badge at bottom-right) -->
+    <path
+        android:pathData="M69,67 m-11,0 a11,11 0 1,0 22,0 a11,11 0 1,0 -22,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="58"
+                android:startY="56"
+                android:endX="80"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#10B981" />
+                <item android:offset="1.0" android:color="#059669" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- White Microphone icon inside badge -->
+    <path
+        android:pathData="M69,61 C67.9,61 67,61.9 67,63 L67,67 C67,68.1 67.9,69 69,69 C70.1,69 71,68.1 71,67 L71,63 C71,61.9 70.1,61 69,61 Z"
+        android:fillColor="#FFFFFF" />
+    <path
+        android:pathData="M65,66 C65,68.2 66.8,70 69,70 C71.2,70 73,68.2 73,66 M69,70 L69,73 M67,73 L71,73"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round" />
+</vector>
